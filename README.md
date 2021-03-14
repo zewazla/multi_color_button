@@ -1,18 +1,5 @@
 # Multi Color Buttons
 
-## Story
-
-Everybody knows that scouts collect badges.
-The more badges you have the more respect you earn.
-Now you want to have your first (or next if you are already a scout) scout badge.
-And that badge is the `DOM manipulator`.
-To earn this badge you need to finish this project.
-
-## What are you going to learn?
-
-- Manipulating the DOM
-- The basic syntax of Javascript
-
 ## Tasks
 
 1. The first row contains a button that will jump if you click it. The jumping part is missing from the code so you need to write it. So when someone clicks the button, it goes from the right to the left and the button's text changes to `Go Left!`.  When we click again it goes to the left and the text changes to `Go Right!`.
@@ -30,19 +17,6 @@ To earn this badge you need to finish this project.
 
 4. The next row contains a button with a number. Whenever you click that button the number will raise on it.
     - If we click the button which has a number on, the number will raise by one on each click
-
-## General requirements
-
-None
-
-## Hints
-
-- Use the `window.onload = function () {}` to write your code.
-- You can change the style of an element with JS by changing the style property directly or you change the element's class and you declare a CSS class for that.
-- If you add an _eventListener_ to an element, you can use the `element.onclick = function() {}` property or the `element.addEventListener("click", function() {})` method.
-- When you want to get an element, you can cache the element in a variable like `let button = document.getElementById("myButton")`.
-  After you can change the properties of that element by `button.style.color = "red"`.
-  In this situation you tell the `button` variable to cache the reference of the element with the `id` property of `myButton`.
 
 ## Background materials
 
