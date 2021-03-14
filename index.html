@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi Color Buttons</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <div id="root">
+    <div class="container1">
+      <button id="flip-flop-go-right" onclick="Right()">Go Right!</button>
+      <button id="flip-flop-go-left" onclick="Left()">Go Left!</button>
+
+    </div>
+    <div class="container2">
+      <button id="change-color" onclick="changeButtonColor()">Change my color!</button>
+    </div>
+    <div class="container3">
+      <button id="change-neighbour-color" onclick="changebackColor()">Change my neighbour color!</button>
+      <button id="neighbour">Click the other button!</button>
+    </div>
+    <div class="container4">
+      <span>You've clicked: </span>
+      <button id="count" onclick="Count()">0</button>
+      <span> times!</span>
+    </div>
+  </div>
+</body>
+
+</html>
